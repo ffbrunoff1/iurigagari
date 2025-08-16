@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, MapPin, Phone, Send, Telescope, Star } from 'lucide-react'
+import { Mail, MapPin, Phone, Send, Eye, Star } from 'lucide-react'
 
 export default function Contact() {
   const handleSubmit = (e) => {

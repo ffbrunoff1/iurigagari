@@ -173,7 +173,7 @@ export default function Services() {
             transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
             className="absolute bottom-10 left-10 text-white/10"
           >
-            <Telescope size={80} />
+            <Eye size={80} />
           </motion.div>
 
           <div className="relative z-10">

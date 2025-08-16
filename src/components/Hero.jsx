@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Star, Telescope, Rocket, Globe } from 'lucide-react'
+import { Star, Eye, Rocket, Globe } from 'lucide-react'
 
 export default function Hero() {
   const scrollToSection = (sectionId) => {
@@ -11,7 +11,7 @@ export default function Hero() {
 
   const floatingElements = [
     { icon: Star, delay: 0, x: 10, y: 15 },
-    { icon: Telescope, delay: 2, x: 90, y: 20 },
+    { icon: Eye, delay: 2, x: 90, y: 20 },
     { icon: Rocket, delay: 4, x: 20, y: 80 },
     { icon: Globe, delay: 1, x: 85, y: 75 }
   ]
@@ -153,7 +153,7 @@ export default function Hero() {
               className="relative z-10 bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20"
             >
               <div className="text-center">
-                <Telescope className="w-32 h-32 text-accent-300 mx-auto mb-6" />
+                <Eye className="w-32 h-32 text-accent-300 mx-auto mb-6" />
                 <h3 className="text-2xl font-bold text-white mb-4">Telescópio Avançado</h3>
                 <p className="text-white/80">
                   Equipamentos de alta precisão para exploração espacial profissional
