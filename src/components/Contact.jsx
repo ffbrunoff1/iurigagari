@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, MapPin, Phone, Send, Eye, Star } from 'lucide-react'
+import { Mail, MapPin, Phone, Send, Eye, Star, TelescopeIcon } from 'lucide-react'
 
 export default function Contact() {
   const handleSubmit = (e) => {
@@ -53,7 +53,7 @@ export default function Contact() {
         transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
         className="absolute bottom-20 left-20 text-secondary-100"
       >
-        <Telescope size={80} />
+        <TelescopeIcon size={80} />
       </motion.div>
 
       <div className="container-custom relative z-10">
@@ -142,7 +142,7 @@ export default function Contact() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="bg-gradient-to-r from-primary-600 to-secondary-600 rounded-3xl p-8 text-white"
             >
-              <Telescope className="w-16 h-16 mb-6" />
+              <TelescopeIcon className="w-16 h-16 mb-6" />
               <h4 className="text-2xl font-bold mb-4">
                 Consultoria Especializada
               </h4>

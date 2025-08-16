@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Telescope, Mail, MapPin, Star, Rocket, Globe } from 'lucide-react'
+import { TelescopeIcon, Mail, MapPin, Star, Rocket, Globe } from 'lucide-react'
 
 export default function Footer() {
   const scrollToSection = (sectionId) => {
@@ -45,7 +45,7 @@ export default function Footer() {
         transition={{ duration: 45, repeat: Infinity, ease: "linear" }}
         className="absolute bottom-40 left-20 text-white/5"
       >
-        <Telescope size={120} />
+        <TelescopeIcon size={120} />
       </motion.div>
 
       <motion.div
@@ -78,7 +78,7 @@ export default function Footer() {
                 onClick={() => scrollToSection('hero')}
               >
                 <div className="p-3 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-full">
-                  <Telescope className="w-8 h-8 text-white" />
+                  <TelescopeIcon className="w-8 h-8 text-white" />
                 </div>
                 <span className="text-3xl font-bold">Iuri Gagari</span>
               </motion.div>

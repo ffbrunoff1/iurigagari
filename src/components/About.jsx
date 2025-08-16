@@ -1,15 +1,15 @@
 import { motion } from 'framer-motion'
-import { Star, Award, Telescope, Rocket, Globe, Users } from 'lucide-react'
+import { Star, Award, TelescopeIcon, Rocket, Globe, Users } from 'lucide-react'
 
 export default function About() {
   const achievements = [
     {
       icon: Rocket,
       title: "Astronauta Certificado",
-      description: "Formação completa pela NASA com especialização em observação espacial"
+      description: "Foração completa pela NASA com especialização em observação espacial"
     },
     {
-      icon: Telescope,
+      icon: TelescopeIcon,
       title: "Especialista em Telescópios",
       description: "15 anos desenvolvendo e operando telescópios de alta performance"
     },
