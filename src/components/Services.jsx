@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
-import { Telescope, Star, Satellite, Microscope, Rocket, Globe, Target, Zap } from 'lucide-react'
+import { Eye, Star, Wifi, Microscope, Rocket, Globe, Target, Zap } from 'lucide-react'
 
 export default function Services() {
   const services = [
     {
-      icon: Telescope,
+      icon: Eye,
       title: "Telescópios Profissionais",
       description: "Equipamentos de alta precisão para observação espacial profissional e descobertas astronômicas.",
       features: ["Lentes de última geração", "Sistemas de rastreamento automático", "Conectividade digital avançada"],
@@ -18,7 +18,7 @@ export default function Services() {
       highlight: "Recomendado"
     },
     {
-      icon: Satellite,
+      icon: Wifi,
       title: "Telescópios Espaciais",
       description: "Tecnologia orbital para observação sem interferência atmosférica e máxima precisão.",
       features: ["Eliminação de distorção atmosférica", "Resolução ultra-alta", "Transmissão em tempo real"],
